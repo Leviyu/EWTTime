@@ -16,7 +16,7 @@
 15	Predicted time			Travel time prediction of the PREM model
 16	Amplitude				Amplitude of the peak of the phase, on instrument-deconvolved velocity recordings
 17	Radiation pattern		The predicted amplitude between [-1,1] using the SH radiation pattern
-18	Flipped polarity flag	Record was modeled after flipping the record’s polarity (which was explored for a low radiation pattern amplitude range [-0.15,0.15])
+18	Flipped polarity flag	Record was modeled after flipping the record’s polarity (which was explored for a low radiation pattern amplitude range [-0.15,0.15]), flagges as 0 if radiation pattern prediction is right, otherwise 1
 19	One period start		The start time, relative to PREM prediction, of the beginning of the time window used to define one period of the phase, measured at the 10% amplitude level preceding the wave peak (used to auto-define the Misfit measurement windows)
 20	One period end			The end time, relative to the PREM prediction, of the end of the time window used to define one period of the phase, measured at the 10% amplitude level following the wave peak (used to auto-define the Misfit measurement windows)
 21	SNRaverage_amp			The signal-to-noise measurement from the average amplitude of the signal to the average amplitude of the noise, as in equation (2)
