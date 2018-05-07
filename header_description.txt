@@ -8,7 +8,7 @@
 7	Event longitude			Earthquake hypocentral location longitude in degrees
 8	Event depth				Earthquake hypocentral location depth in km
 9	Event magnitude			Earthquake moment magnitude
-10	Origin time				Earthquake origin time, in format of yyyymmddhhmmss.ss
+10	Origin time				Earthquake origin time, in format of yyyymmddhhmmss.ss, please load as numbers if opened in excel.
 11	Azimuth					Azimuth from earthquake to station (in degrees)
 12	Back azimuth			Back azimuth measured at station clockwise back to earthquake (in degrees)
 13	Phase name				Either S, SS, SSS, Sdiff, ScS, or ScSScS
@@ -19,9 +19,9 @@
 18	Flipped polarity flag	Record was modeled after flipping the record’s polarity (which was explored for a low radiation pattern amplitude range [-0.15,0.15]), flagges as 0 if radiation pattern prediction is right, otherwise 1
 19	One period start		The start time, relative to PREM prediction, of the beginning of the time window used to define one period of the phase, measured at the 10% amplitude level preceding the wave peak (used to auto-define the Misfit measurement windows)
 20	One period end			The end time, relative to the PREM prediction, of the end of the time window used to define one period of the phase, measured at the 10% amplitude level following the wave peak (used to auto-define the Misfit measurement windows)
-21	SNRaverage_amp			The signal-to-noise measurement from the average amplitude of the signal to the average amplitude of the noise, as in equation (2)
-22	SNRpeak-trough			The signal-to-noise measurement from the maximum peak-to-trough measurement within one period of the signal compared to noise, as in equation (3)
-23	SNRmax_peak				The signal-to-noise measurement from the maximum peak in the signal window compared to the maximum peak in the entire noise window, as in equation (4)
+21	SNRaverage_amp			The signal-to-noise measurement from the average amplitude of the signal to the average amplitude of the noise
+22	SNRpeak-trough			The signal-to-noise measurement from the maximum peak-to-trough measurement within one period of the signal compared to noise
+23	SNRmax_peak				The signal-to-noise measurement from the maximum peak in the signal window compared to the maximum peak in the entire noise window
 24	MisfitSIGNAL			The average difference between the phase and the best-fit SEW over one period (see Equation 1)
 25	MisfitPRE				As above, except over one period preceding the phase
 26	MisfitPOST				As above, except over one period following the phase
@@ -31,7 +31,7 @@
 30	Stretch factor			A measure of the amount the SEW has to be narrowed to fit records that are narrower than the SEW 
 31	CCC[rec,SEW]			Cross-correlation coefficient between observed record and the best-fitting SEW adapted to the record
 32	CCC[rec,GEW]			Cross-correlation coefficient between observed record and GEW, which measures the record’s fit to the average phase shape for the event
-33	g_best-fit_SEW			Gaussian factor of the best-fitting Gaussian function (equation 5) to a record’s best-fitting SEW
-34	g_event_SEW				Gaussian factor of the best-fitting Gaussian function (equation 5) to the S wave SEW for the event (i.e., unstretched, un-t*’ed, as in Step 3, Section 3.1) 
-36	Misfit_g				The misfit measured between g_best-fit_SEW and g_event_SEW (computed as in equation 1) which provides a different measure of record broadening
-37	w_comprehensive			An empirical comprehensive weight value for each data (see equation 6)
+33	g_best-fit_SEW			Gaussian factor of the best-fitting Gaussian function to a record’s best-fitting SEW
+34	g_event_SEW				Gaussian factor of the best-fitting Gaussian function to the S wave SEW for the event (i.e., unstretched, un-t*’ed, as in Step 3, Section 3.1) 
+36	Misfit_g				The misfit measured between g_best-fit_SEW and g_event_SEW  which provides a different measure of record broadening
+37	w_comprehensive			An empirical comprehensive weight value for each record
