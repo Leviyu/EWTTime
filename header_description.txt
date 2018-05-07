@@ -2,13 +2,13 @@
 1	Station name			The 3-5 character station name code
 2	Network name			The two-digit code for the seismographic network
 3	Distance				Epicentral distance between earthquake and station in degrees
-4	Station latitude		Station location latitude in degrees1
-5	Station longitude		Station location longitude in degrees1
-6	Event latitude			Earthquake hypocentral location latitude in degrees2
-7	Event longitude			Earthquake hypocentral location longitude in degrees2
-8	Event depth				Earthquake hypocentral location depth in km2
-9	Event magnitude			Earthquake moment magnitude2
-10	Origin time				Earthquake origin time2
+4	Station latitude		Station location latitude in degrees
+5	Station longitude		Station location longitude in degrees
+6	Event latitude			Earthquake hypocentral location latitude in degrees
+7	Event longitude			Earthquake hypocentral location longitude in degrees
+8	Event depth				Earthquake hypocentral location depth in km
+9	Event magnitude			Earthquake moment magnitude
+10	Origin time				Earthquake origin time, in format of yyyymmddhhmmss.ss
 11	Azimuth					Azimuth from earthquake to station (in degrees)
 12	Back azimuth			Back azimuth measured at station clockwise back to earthquake (in degrees)
 13	Phase name				Either S, SS, SSS, Sdiff, ScS, or ScSScS
