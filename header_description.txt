@@ -27,7 +27,7 @@
 26	MisfitPOST				As above, except over one period following the phase
 27	MisfitPRE_2T			As above, except over one period preceding MisfitPRE
 28	MisfitPOST_2T			As above, except over one period following MisfitPOST
-29	t* 						The best-fit t* value that, when convolved with the SEW, gives the best fit to records that are broader than the SEW
+29	t* 						The best-fit t* value that, when convolved with the SEW, gives the best fit to records that are broader than the SEW, this value is set to NaN if the record is actually narrower then SEW
 30	Stretch factor			A measure of the amount the SEW has to be narrowed to fit records that are narrower than the SEW 
 31	CCC[rec,SEW]			Cross-correlation coefficient between observed record and the best-fitting SEW adapted to the record
 32	CCC[rec,GEW]			Cross-correlation coefficient between observed record and GEW, which measures the record’s fit to the average phase shape for the event
@@ -35,3 +35,5 @@
 34	g_event_SEW				Gaussian factor of the best-fitting Gaussian function to the S wave SEW for the event (i.e., unstretched, un-t*’ed, as in Step 3, Section 3.1) 
 36	Misfit_g				The misfit measured between g_best-fit_SEW and g_event_SEW  which provides a different measure of record broadening
 37	w_comprehensive			An empirical comprehensive weight value for each record
+38	Traffic in noise window The flag is set to 1 if there is traffic phase in noise window and set to 0 otherwise
+39	One period				The period of the phase pulse measured in displacement domain
