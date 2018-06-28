@@ -33,8 +33,8 @@
 32	CCC[rec,GEW]			Cross-correlation coefficient between observed record (rec) and the GEW which measures the record’s fit to the average phase shape for the event
 33	g_best-fit_SEW		Gaussian factor (g) of the best-fitting Gaussian function to a record’s best-fitting SEW
 34	g_event_SEW			Gaussian factor (g) of the best-fitting Gaussian function to the S wave SEW for the event (i.e., unstretched, un-t*’ed, as in Step 3, Section 3.1) 
-36	Misfit_g			The misfit measured between g_best-fit_SEW and g_event_SEW  which provides a different measure of record broadening
-37	w_comprehensive		An empirical comprehensive weight value for each record
-38	Noise window traffic 		If “traffic phases” are present in the noise window, this value is 1 (otherwise 0)
-39	Period				Estimated period of the phase measured on displacement recordings, from the start and end of the pulse measured at 0.1 amplitude (when peak is set to 1)
-40. PeriodFlag			Flag column to show if measured Period is outlier, a linear function is constructed between #39 and (#20 - #19), if period measurement is 2 standard devation from this linear funciton, it is marked to 1, otherwise 0
+35	Misfit_g			The misfit measured between g_best-fit_SEW and g_event_SEW  which provides a different measure of record broadening
+36	w_comprehensive		An empirical comprehensive weight value for each record
+37	Noise window traffic 		If “traffic phases” are present in the noise window, this value is 1 (otherwise 0)
+38	Period				Estimated period of the phase measured on displacement recordings, from the start and end of the pulse measured at 0.1 amplitude (when peak is set to 1)
+39. PeriodFlag			Flag column to show if measured Period is outlier, a linear function is constructed between #39 and (#20 - #19), if period measurement is 1 standard deviation from this linear function, it is marked to 1, if period measurement is between 1 and 2 standard deviation from linear function, it is marked to 2, otherwise it is marked as 3
