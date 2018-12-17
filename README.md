@@ -5,6 +5,6 @@ This comprehensive dataset is constructed with Empirical Wavelet and is presente
 
 The file is in csv format and the header is explained in `./header_description.txt`, for detailed explanation of each term, please refer to the paper for more information.
 
-We encourage user to refer to [Zenodo](https://zenodo.org/record/1299902#.XBfk6M_YpTY), as it contains our latest update on the dataset.
+We encourage user to refer to [Zenodo](https://zenodo.org/record/1299902#.XBfk6M_YpTY), as it contains our latest update on the dataset as well as the doi for the dataset.
 
 If you have any questions regarding this dataset, please take a few minutes to open an issue or mail directly to: hongyu.lai@asu.edu.
