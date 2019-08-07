@@ -9,4 +9,4 @@ We encourage user to refer to [Zenodo](https://zenodo.org/record/1299902#.XBfk6M
 
 If you have any questions regarding this dataset, please take a few minutes to open an issue or mail directly to: hongyu.lai@asu.edu.
 
-Apologies: we are in the process of repairing a broken dataset file. Please check back in a few days.
+### Apologies: we are in the process of repairing a broken dataset file. Please check back in a few days. --Aug 7th 2019
